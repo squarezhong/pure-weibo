@@ -16,9 +16,21 @@ Following, not recommended.
 
 ## 安装
 
-1. 准备好 Tampermonkey 或 Violentmonkey 扩展。
-2. 在扩展中新建脚本，将 [pure-weibo.user.js](pure-weibo.user.js) 的全部内容复制进去，替换默认模板并保存；也可通过扩展的本地文件导入功能安装。
-3. 刷新微博页面即可使用。后续更新需手动替换脚本。
+前提条件：准备好 Tampermonkey 或 Violentmonkey 扩展。
+
+### 一键安装
+
+[安装 Pure Weibo (Github)](https://raw.githubusercontent.com/squarezhong/pure-weibo/main/pure-weibo.user.js)
+
+后续可自动获取更新。
+
+### 手动安装
+
+在扩展中新建脚本，将 [pure-weibo.user.js](pure-weibo.user.js) 的全部内容复制进去，替换默认模板并保存；也可通过扩展的本地文件导入功能安装。后续更新需手动替换脚本。
+
+---
+
+安装完成后刷新微博页面即可使用。
 
 ## 设置
 
@@ -29,4 +41,3 @@ Following, not recommended.
 ## 使用说明
 
 无法确认来源的微博会保留，普通正文提到“广告”“推荐”等词不会因此被隐藏。微博改版可能影响过滤效果；如遇误判，可在设置中关闭对应规则。
-
